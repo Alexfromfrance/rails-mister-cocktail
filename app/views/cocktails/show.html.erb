@@ -1,2 +1,4 @@
+<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
 
-<h2><%= @cocktail.name %></h2>
+<h2><%= @cocktail.name%></h2>
+<%= link_to "Retour", cocktails_path, class: "btn btn-primary"%>
